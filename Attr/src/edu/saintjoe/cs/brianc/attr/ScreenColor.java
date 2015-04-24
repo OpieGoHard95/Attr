@@ -18,6 +18,10 @@ public class ScreenColor {
 			  return (colorValue = 0x000000);
 		  else if (colorDescription.equals("red"))
 			  return (colorValue = 0xff0000);
+		  else if (colorDescription.equals("green"))
+			  return (colorValue = 0x00cc00);
+		  else if (colorDescription.equals("yellow"))
+			  return (colorValue = 0x999900);
 		  
 		  // We have to return something; this isn't really the right way to do it!
 		  return 0;
