@@ -20,7 +20,7 @@ package edu.saintjoe.cs.brianc.attr;
 		    this(name, "transparent");
 		    }
 
-		
+		// This is an overloaded method
 		public ColorAttr(String name, ScreenColor value) {
 		    super(name, value.toString());
 		    myColor = value;
