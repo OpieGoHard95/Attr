@@ -19,9 +19,13 @@ public class ColorAttrDriver {
 		System.out.println(testTwo.toString());
 		
 		
+		// This gives green as the answer because it takes the second argument from line 11
+		// where it defines newColor as getting green
 		testThree = new ColorAttr("ColorThree", newColor);
 		System.out.println(testThree.toString());
 
+		// This toString() prints yellow because it is given yellow
+		// as an argument as opposed to ColorThree
 		testFour = new Attr("ColorFour", "yellow");
 		System.out.println(testFour.toString());
 		
