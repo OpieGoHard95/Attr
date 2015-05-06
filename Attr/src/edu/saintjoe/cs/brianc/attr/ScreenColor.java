@@ -24,6 +24,10 @@ public class ScreenColor {
 			  return (colorValue = 0x999900);
 		  else if (colorDescription.equals("purple"))
 			  return (colorValue = 0x6600cc);
+		  else if (colorDescription.equals("chartreuse"))
+			  return (colorValue = 0x81F781);
+		  else if (colorDescription.equals("crimson"))
+			  return (colorValue = 0xF71111);
 		  // We have to return something; this isn't really the right way to do it!
 		  return 0;
 	  }
