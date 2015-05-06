@@ -1,6 +1,6 @@
 package edu.saintjoe.cs.brianc.attr;
-// These comments are added by Brian
-// So this is a comment that I am making for testing purposes only
+// These comments are added by Brian Capouch
+
 public class Attr {
 	
 	// Once I create an object and give it a name, it CANNOT be changed!!
@@ -28,7 +28,7 @@ public class Attr {
 	    }
 
 	// Accessor or "getter"
-	public Object getvalue() {
+	public Object getValue() {
 	    return value;
 	    }
 

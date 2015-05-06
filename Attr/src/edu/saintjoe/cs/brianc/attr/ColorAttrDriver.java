@@ -31,5 +31,8 @@ public class ColorAttrDriver {
 		ColorAttr crimson = new ColorAttr("Color Five", "crimson");
 		System.out.println(crimson.toString());
 		
+		ColorAttr chartreuse = new ColorAttr("Color Six", "chartreuse");
+		System.out.println(chartreuse.toString());
+		
 	} // end main
 }
